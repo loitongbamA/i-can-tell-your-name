@@ -77,8 +77,8 @@ th button{
     transition-property: background, -webkit-transform;
     transition-property: transform, background;
     transition-property: transform, background, -webkit-transform;
-    -webkit-transition: 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    transition: 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    -webkit-transition: 200ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: 200ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 th button:active{
@@ -89,8 +89,8 @@ th button:active{
     transition-property: background, -webkit-transform;
     transition-property: transform, background;
     transition-property: transform, background, -webkit-transform;
-    -webkit-transition:  300ms 0ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transition:  300ms 0ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transition:  200ms 0ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition:  200ms 0ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
 table tr td{
