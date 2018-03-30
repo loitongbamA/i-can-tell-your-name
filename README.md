@@ -1,5 +1,5 @@
 # i-can-tell-your-name
-It is a personal fun project made for me and you where after two step process your guesed word or name is revealed.
+It is a personal fun project made for me and you where after two step process your guessed word or name is revealed.
 how to play?:
 after the page is loaded properly do the following steps:
 1) click the creature name(viz. Owl, Tiger, Tortoise, Fox, Fly, Scorpion -- this is just a random animal names and is not related to game or what ever you call this.) according or correspond to the column where the starting letter of your name is present. Do the same for the reamining letters of your name, but serially. Then click Go!!! button.
