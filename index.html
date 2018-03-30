@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+    <title>I Can Tell Your Name!</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="css/nameGuessingStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div  class="topbar">
+           <h1>I Can Tell Your Name!</h1>
+           <div id="message">Hey human, just click the creature name in the box which correspond to the column where you found your names's first letter. Keep Doing for remaining letters serially. And <em>click GO !!!</em></div>
+        </div>
+
+        <div class="tablebox">
+          <p class="alertmsg"></p>
+           <table>
+               <thead>
+                   <tr>
+                       <th><button value="0">Owl</button></th>
+                       <th><button value="1">Tiger</button></th>
+                       <th><button value="2">Tortoise</button></th>
+                       <th><button value="3">Fox</button></th>
+                       <th><button value="4">Fly</button></th>
+                       <th><button value="5">Scorpion</button></th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td>A</td>
+                       <td>B</td>
+                       <td>C</td>
+                       <td>D</td>
+                       <td>E</td>
+                       <td>-</td>
+                   </tr>
+                   <tr>
+                       <td>F</td>
+                       <td>G</td>
+                       <td>H</td>
+                       <td>I</td>
+                       <td>J</td>
+                       <td>-</td>
+                   </tr><tr>
+                       <td>K</td>
+                       <td>L</td>
+                       <td>M</td>
+                       <td>N</td>
+                       <td>O</td>
+                       <td>-</td>
+                   </tr><tr>
+                       <td>P</td>
+                       <td>Q</td>
+                       <td>R</td>
+                       <td>S</td>
+                       <td>T</td>
+                       <td>-</td>
+                   </tr><tr>
+                       <td>U</td>
+                       <td>V</td>
+                       <td>W</td>
+                       <td>X</td>
+                       <td>Y</td>
+                       <td>-</td>
+                   </tr><tr>
+                       <td>Z</td>
+                       <td>-</td>
+                       <td>-</td>
+                       <td>-</td>
+                       <td>-</td>
+                       <td>-</td>
+
+                   </tr>
+               </tbody>
+           </table>
+           <p class="note">Note: If you need space, consider clicking the cloumn which contains "<strong> - </strong>" .</p>
+        </div>
+
+        <div class="magicbtn">
+            <div id="progressBarBox">
+                <div id="pbar"></div>
+            </div>
+            
+            <div class="mainbtn">
+                <button class="btnanimate" id="submit">Go !!!</button>
+            </div>
+        </div>
+        <div class="resetDiv">
+            <button id="reset" onclick="return reset()">Try Again !</button>
+        </div>
+
+        <footer>
+            <p>2018 | Design and Converted into Digital form by - <cite>Loitongbam Angamba</cite> | <span><a href="#" title="github"><i class="fab fa-github"></i></a></span></p>
+            <p>Helping friend - <cite>Rajib Kr. Singha</cite></p>
+        </footer>
+    </div>
+    
+    <div class="resultbox">
+        <div class="resultcard">
+                <button id="close" title="close">X</button>
+            
+                <div class="finalcard">
+                    <div>
+                        <p>Boom! Your Name is- </p>
+                        <div id="namebox">
+                            <span id="name"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>credit to <a href="https://mattboldt.com/demos/typed-js/" target="_blank">www.mattboldt.com</a> for Typed.js</p>
+                    </div>
+                </div>
+            
+            
+        </div>
+   </div>
+
+   
+   <script src="lib/typed.min.js"></script>
+   <script src="js/nameGuess.js"></script>
+</body>
+</html>
