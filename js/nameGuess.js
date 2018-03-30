@@ -196,7 +196,7 @@ function reset(){
     disablebtns("no");
     newSet = [];
     finalset = [];
-    clicked = !clicked;
+    clicked = false;
     tempwdth = 0;
     wdth = 0;
     nameIs = "";
